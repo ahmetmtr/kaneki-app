@@ -47,19 +47,22 @@
     </div>
 </nav>
 
-    <div class="hero container">
-        <div class="row">
-            <div class="col d-flex flex-column align-items-start justify-content-center">
-                <h1>asdıopwajdıo</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis facilis inventore modi necessitatibus, nihil nisi officiis saepe totam veritatis.</p>
-            </div>
-            <div class="col">
-                <img src="assets/images/hero-image.svg" class="hero-image img-fluid" alt="kaneki app hero image">
-            </div>
+<div class="hero container">
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-control">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-    </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-outline-dark">Submit</button>
+    </form>
+</div>
 
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
