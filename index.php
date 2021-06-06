@@ -1,3 +1,6 @@
 <?php
 
-echo "helloworld";?>
+echo "helloworld";
+echo "skrrt skrrt";
+
+?>
