@@ -1,8 +1,175 @@
+body {
+    background-color: #F9FAFB;
+}
+
+::selection {
+    background-color: mistyrose;
+    color: #1a1e21;
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: #1a1e21;
+}
+
+.nav-logo:hover {
+    color: #1a1e21;
+}
+
+.nav-link {
+    color: #1a1e21;
+    font-weight: 500;
+}
+
+.nav-login-btn:hover {
+    background-color: #F3F4F6;
+    color: #374151;
+}
+
+.nav-register-btn{
+    background-color: papayawhip;
+    color: black;
+}
+
 .hero {
     margin-top: 3.5rem;
+}
+
+.col-lg-6 h1 {
+    font-family: Dubai;
+    color: #374151;
+}
+
+.col-lg-6 p {
+    font-size: 1.05rem;
+    color: #363636;
+    font-family: "Source Sans Pro Light";
 }
 
 .hero-image {
     width: 35rem;
     height: 35rem;
+}
+
+.hero-lets-btn {
+    background-color: papayawhip;
+    color: #373b3e;
+    box-shadow: 4px 4px paleturquoise;
+    transition: 500ms all;
+}
+
+.hero-lets-btn:focus,
+.hero-lets-btn:hover {
+    box-shadow: none;
+}
+
+.hero-info-btn {
+    background-color: #EEF2FF;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+/* Form */
+.form {
+    position: relative;
+    z-index: 1;
+    max-width: 18.75rem;
+    margin: 0 auto 100px;
+    border-radius: 3px;
+    text-align: center;
+}
+.form .thumbnail {
+    margin: 0 auto 30px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.info h1 {
+    font-weight: 600 !important;
+    margin-top: 1rem !important;
+}
+.form input {
+    outline: 0;
+    width: 100%;
+    background-color: #F9FAFB;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form input:focus {
+    border: 1px solid black;
+}
+
+.form button {
+    outline: 0;
+    background: black;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 18px;
+    transition: all 0.3ms ease;
+    cursor: pointer;
+}
+
+.form button:focus,
+.form button:hover {
+    background-color: #1a1e21;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.form .message a {
+    color: #F87171 !important;
+    text-decoration: none !important;
+}
+.form .register-form {
+    display: none;
+}
+
+.form-container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.form-container:before, .form-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.form-container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.form-container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.form-container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.form-container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.form-container .info span .fa {
+    color: #EF3B3A;
 }
